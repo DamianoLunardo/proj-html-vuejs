@@ -132,11 +132,7 @@ li {
     list-style: none;
 }
 
-button {
-    border: solid 1px #e8e8e8;
-    padding: 10px;
-    background-color: white;
-}
+
 
 li h4::after {
     content: "";

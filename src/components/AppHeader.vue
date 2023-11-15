@@ -33,7 +33,7 @@ export default {
                         <p>Pellentesque vitae viverra risus, sagittis.<br>
                             Venenatis ridiculus scelerisque nisi in urna<br>
                             nulla. Sit tempor a et nisl, ac felis.</p>
-                        <button>EXPLORE THE MENU</button>
+                        <button class="button-header">EXPLORE THE MENU</button>
                     </div>
                 </div>
 
@@ -80,9 +80,11 @@ li {
     gap: 20px;
 }
 
-button {
+.button-header {
     border: solid 1px white;
-    padding: 10px;
+    width: 200px;
+    background-color: transparent;
+    color: white;
 }
 .text-info {
     padding-top: 80px;
