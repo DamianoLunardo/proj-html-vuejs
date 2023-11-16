@@ -19,36 +19,51 @@ export default {
 
 <template>
     <header>
-    <div class="bg-header">
-        <div class=" container">
-            <div class="row  header  ">
-                <div class="col-4 ">
-                    <div>
-                        <img src="/public/images/logo-restaurant-2x-200x38.png" />
+        <div class="bg-header">
+            <div class=" container">
+                <div class="row  header  ">
+                    <div class="col-4 ">
+                        <div>
+                            <img src="/public/images/logo-restaurant-2x-200x38.png" />
+                        </div>
+                        <div class="prova">
+                            <div class="line"></div>
+                            <div class="text-info ">
+                                <p class="text-sub">THE BEST TABLE IN TOWN</p>
+                                <h1>FINE DINING <br>
+                                    EXPERIENCE</h1>
+                                <p>Pellentesque vitae viverra risus, sagittis.<br>
+                                    Venenatis ridiculus scelerisque nisi in urna<br>
+                                    nulla. Sit tempor a et nisl, ac felis.</p>
+                                <button class="button-black">EXPLORE THE MENU</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="text-info ">
-                        <p class="text-sub">THE BEST TABLE IN TOWN</p>
-                        <h1>FINE DINING <br>
-                        EXPERIENCE</h1>
-                        <p>Pellentesque vitae viverra risus, sagittis.<br>
-                            Venenatis ridiculus scelerisque nisi in urna<br>
-                            nulla. Sit tempor a et nisl, ac felis.</p>
-                        <button class="button-black">EXPLORE THE MENU</button>
-                    </div>
-                </div>
 
-                <div class="col-8 font-menu">
-                    <ul class="menu">
-                        <li v-for="item in menuItems" :key="item"> {{ item }}</li>
-                    </ul>
+                    <div class="col-8 font-menu">
+                        <ul class="menu">
+                            <li v-for="item in menuItems" :key="item"> {{ item }}</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </header>
 </template>
 
 <style lang="scss" scoped>
+.prova {
+    display: flex;
+
+}
+
+.line {
+    margin-top: 90px;
+    width: 15%;
+    height: 1px;
+    background-color: #e8e8e8;
+}
+
 .bg-header {
     background-image:
         linear-gradient(to right, black 40%, transparent 40%),
@@ -64,14 +79,17 @@ export default {
     justify-content: space-between;
     color: #e8e8e8;
 }
+
 .menu {
     display: flex;
     gap: 20px;
 }
+
 .text-info {
     padding-top: 80px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    margin-left: 50px;
 }
 </style>
