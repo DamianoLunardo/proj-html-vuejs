@@ -26,10 +26,10 @@ export default {
                     <div>
                         <img src="/public/images/logo-restaurant-2x-200x38.png" />
                     </div>
-                    <div class="text-info prova">
+                    <div class="text-info ">
                         <p class="text-sub">THE BEST TABLE IN TOWN</p>
-                        <h1>FINE DINING</h1>
-                        <h1>EXPERIENCE</h1>
+                        <h1>FINE DINING <br>
+                        EXPERIENCE</h1>
                         <p>Pellentesque vitae viverra risus, sagittis.<br>
                             Venenatis ridiculus scelerisque nisi in urna<br>
                             nulla. Sit tempor a et nisl, ac felis.</p>
@@ -56,7 +56,7 @@ export default {
     background-size: contain, 60% auto;
     background-repeat: no-repeat;
     background-position: left center, right center;
-    height: 500px;
+    height: 600px;
 }
 
 .header {
