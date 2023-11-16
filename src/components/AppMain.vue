@@ -1,8 +1,10 @@
 <script>
 import AppMainTop from './AppMainTop.vue';
+import AppMainCenter1 from './AppMainCenter1.vue';
 export default {
   components: {
     AppMainTop,
+    AppMainCenter1,
     
   },
   data () {
@@ -16,6 +18,7 @@ export default {
 
 <template>
 <AppMainTop/>
+<AppMainCenter1/>
 
 
 </template>
