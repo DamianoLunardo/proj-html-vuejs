@@ -1,5 +1,5 @@
 <template>
-    <div class="container-prova">
+   
         <div class="flex-item">
             <div class="image-container"></div>
             <div class="text-info">
@@ -16,7 +16,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    
 </template>
 
 <style lang="scss" scoped>
