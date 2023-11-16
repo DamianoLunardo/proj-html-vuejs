@@ -18,7 +18,6 @@ export default {
 </script>
 
 <template>
-  
     <div class="bg-header color-text">
         <div class=" container">
             <div class="row  header  ">
@@ -33,7 +32,7 @@ export default {
                         <p>Pellentesque vitae viverra risus, sagittis.<br>
                             Venenatis ridiculus scelerisque nisi in urna<br>
                             nulla. Sit tempor a et nisl, ac felis.</p>
-                        <button class="button-header">EXPLORE THE MENU</button>
+                        <button class="button-black">EXPLORE THE MENU</button>
                     </div>
                 </div>
 
@@ -48,43 +47,23 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-
 .bg-header {
-    background-image: 
+    background-image:
         linear-gradient(to right, black 40%, transparent 40%),
-        url('../../public/images/slider52x.jpg'); 
-background-size: contain, 60% auto; 
+        url('../../public/images/slider52x.jpg');
+    background-size: contain, 60% auto;
     background-repeat: no-repeat;
-    background-position: left center, right center; 
-    height: 500px; 
+    background-position: left center, right center;
+    height: 500px;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
 }
-.container {
-    padding-top: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-.color-text {
-    color: white;
-}
-
-ul,
-li {
-    list-style: none;
-}
 .menu {
     display: flex;
     gap: 20px;
-}
-
-.button-header {
-    border: solid 1px white;
-    width: 200px;
-    background-color: transparent;
-    color: white;
 }
 .text-info {
     padding-top: 80px;

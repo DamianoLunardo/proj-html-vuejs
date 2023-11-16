@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container-2">
         <div class="top-part">
             <div class="info">
                 <p>
@@ -85,26 +85,19 @@
 </template>
   
 <style lang="scss" scoped>
-.container {
-    padding-top: 20px;
-    max-width: 1000px;
-    margin: 0 auto;
 
-}
 
 .top-part {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-top: 80px;
 }
-
 .bottom-part {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     padding-top: 150px;
 }
-
 .signature {
     width: 150px;
 }
@@ -127,13 +120,6 @@ ul {
     width: 100%;
 }
 
-ul,
-li {
-    list-style: none;
-}
-
-
-
 li h4::after {
     content: "";
     padding-top: 20px;
@@ -144,7 +130,7 @@ li h4::after {
     margin-left: auto;
     margin-right: auto;
 }
-    
+
 
 </style>
 
