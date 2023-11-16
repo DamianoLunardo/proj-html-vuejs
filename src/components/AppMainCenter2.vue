@@ -58,7 +58,7 @@
             <div class="text-info bg-2">
                 <div class="right-part">
                     <p class="text-sub">PATRICK MONROE</p>
-                    <h1>NEW YORK TIMES</h1>
+                    <h1>GLOBE AND MAIL</h1>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
