@@ -18,7 +18,8 @@ export default {
 </script>
 
 <template>
-    <div class="bg-header color-text">
+    <header>
+    <div class="bg-header">
         <div class=" container">
             <div class="row  header  ">
                 <div class="col-4 ">
@@ -26,7 +27,7 @@ export default {
                         <img src="/public/images/logo-restaurant-2x-200x38.png" />
                     </div>
                     <div class="text-info prova">
-                        <p>THE BEST TABLE IN TOWN</p>
+                        <p class="text-sub">THE BEST TABLE IN TOWN</p>
                         <h1>FINE DINING</h1>
                         <h1>EXPERIENCE</h1>
                         <p>Pellentesque vitae viverra risus, sagittis.<br>
@@ -36,7 +37,7 @@ export default {
                     </div>
                 </div>
 
-                <div class="col-8 ">
+                <div class="col-8 font-menu">
                     <ul class="menu">
                         <li v-for="item in menuItems" :key="item"> {{ item }}</li>
                     </ul>
@@ -44,6 +45,7 @@ export default {
             </div>
         </div>
     </div>
+    </header>
 </template>
 
 <style lang="scss" scoped>
@@ -60,6 +62,7 @@ export default {
 .header {
     display: flex;
     justify-content: space-between;
+    color: #e8e8e8;
 }
 .menu {
     display: flex;

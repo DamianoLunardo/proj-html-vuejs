@@ -3,7 +3,7 @@
         <div class="top-part">
             <div class="info">
                 <p>
-                    HAC TELLUS, FELIS RIUSU AT mattis mattis. Eget euismod <br />
+                    <span class="text-bold">HAC TELLUS, FELIS RIUSU AT</span> mattis mattis. Eget euismod <br />
                     semper eget tortor, donec amet, blandit. Tristeque facilisi facibus
                     <br />
                     elementum feugiat in nam in feugit. Ipsum odio etiam duis <br />
@@ -106,13 +106,14 @@ ul {
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 25px;
 }
 
 .info {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding-top: 50px;
 
 }
 
@@ -122,7 +123,7 @@ ul {
 
 li h4::after {
     content: "";
-    padding-top: 20px;
+    padding-top: 30px;
     display: block;
     border-bottom: 1px solid #e8e8e8;
     margin-bottom: 10px;
