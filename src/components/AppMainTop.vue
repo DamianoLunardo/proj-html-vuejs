@@ -118,7 +118,8 @@ ul {
 }
 
 .right-img {
-    width: 100%;
+    width: 85%;
+    margin-left: 100px;
 }
 
 li h4::after {
