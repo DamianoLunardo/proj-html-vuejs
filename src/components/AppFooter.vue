@@ -85,7 +85,7 @@ ul {
 .footer-2 {
     background-color: black;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     margin-top: -20px;
 }
 
