@@ -50,6 +50,11 @@ button {
     background-color: white;
 }
 
+button:hover {
+    background-color: white;
+    color: black;
+}
+
 .button-black {
     border: solid 1px white;
     width: 200px;

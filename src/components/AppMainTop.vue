@@ -41,7 +41,7 @@
                             nulla. Sit tempor a et nisl, ac felis.
                         </p>
                     </li>
-                    <li><button>EXPLORE THE MENU</button></li>
+                    <li><button class="button-hover">EXPLORE THE MENU</button></li>
                 </ul>
             </div>
             <div>
@@ -59,7 +59,7 @@
                             nulla. Sit tempor a et nisl, ac felis.
                         </p>
                     </li>
-                    <li><button>MAKE A RESERVATION</button></li>
+                    <li><button class="button-hover">MAKE A RESERVATION</button></li>
                 </ul>
             </div>
             <div>
@@ -77,7 +77,7 @@
                             nulla. Sit tempor a et nisl, ac felis.
                         </p>
                     </li>
-                    <li><button>LEARN MORE ABOUT US</button></li>
+                    <li><button class="button-hover">LEARN MORE ABOUT US</button></li>
                 </ul>
             </div>
         </div>
@@ -114,7 +114,6 @@ ul {
     flex-direction: column;
     gap: 20px;
     padding-top: 50px;
-
 }
 
 .right-img {
@@ -131,6 +130,11 @@ li h4::after {
     width: 50px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.button-hover:hover {
+    background-color: black;
+    color: white;
 }
 
 
