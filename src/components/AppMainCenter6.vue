@@ -9,7 +9,7 @@
                          <h5>AHI SALMON NIGIRI </h5>   
                         </div>
                         <div>
-                        <p>&dollar;48</p>
+                        <p class="price">&dollar;48</p>
                         </div>
                     </div>
                     <p>Eget vulpate vitae quis rutrum blandit sed. Quam nulla sit lacina</p>
@@ -20,7 +20,7 @@
                          <h5>UMI MASU SALAD </h5>   
                         </div>
                         <div>
-                        <p>&dollar;21</p>
+                        <p class="price">&dollar;21</p>
                         </div>
                     </div>
                     <p>Eget vulpate vitae quis rutrum blandit sed. Quam nulla sit lacina</p>
@@ -32,7 +32,7 @@
                          <h5>TEMAKI WITH CRAB </h5>   
                         </div>
                         <div>
-                        <p>&dollar;32</p>
+                        <p class="price">&dollar;32</p>
                         </div>
                     </div>
                     <p>Eget vulpate vitae quis rutrum blandit sed. Quam nulla sit lacina</p>
@@ -43,7 +43,7 @@
                          <h5>CALIFORNIA ROLLS </h5>   
                         </div>
                         <div>
-                        <p>&dollar;22</p>
+                        <p class="price">&dollar;22</p>
                         </div>
                     </div>
                     <p>Eget vulpate vitae quis rutrum blandit sed. Quam nulla sit lacina</p>
@@ -57,7 +57,7 @@
                          <h5>BRAISED ABALONE </h5>   
                         </div>
                         <div>
-                        <p>&dollar;52</p>
+                        <p class="price">&dollar;52</p>
                         </div>
                     </div>
                     <p>Eget vulpate vitae quis rutrum blandit sed. Quam nulla sit lacina</p>
@@ -68,7 +68,7 @@
                          <h5>TWICE COOKED PORK </h5>   
                         </div>
                         <div>
-                        <p>&dollar;21</p>
+                        <p class="price">&dollar;21</p>
                         </div>
                     </div>
                     <p>Eget vulpate vitae quis rutrum blandit sed. Quam nulla sit lacina</p>
@@ -79,7 +79,7 @@
                          <h5>KUNG PAO CHICKEN </h5>   
                         </div>
                         <div>
-                        <p>&dollar;32</p>
+                        <p class="price">&dollar;32</p>
                         </div>
                     </div>
                     <p>Eget vulpate vitae quis rutrum blandit sed. Quam nulla sit lacina</p>
@@ -90,7 +90,7 @@
                          <h5> CHAR SIU & SUSHIS</h5>   
                         </div>
                         <div>
-                        <p>&dollar;48</p>
+                        <p class="price">&dollar;48</p>
                         </div>
                     </div>
                     <p>Eget vulpate vitae quis rutrum blandit sed. Quam nulla sit lacina</p>
@@ -104,7 +104,7 @@
                          <h5>CHOCOLATE BALL CAKE </h5>   
                         </div>
                         <div>
-                        <p>&dollar;13</p>
+                        <p class="price">&dollar;13</p>
                         </div>
                     </div>
                     <p>Eget vulpate vitae quis rutrum blandit sed. Quam nulla sit lacina</p>
@@ -115,7 +115,7 @@
                          <h5>LIME PIE WITH CRUST </h5>   
                         </div>
                         <div>
-                        <p>&dollar;14</p>
+                        <p class="price">&dollar;14</p>
                         </div>
                     </div>
                     <p>Eget vulpate vitae quis rutrum blandit sed. Quam nulla sit lacina</p>
@@ -126,7 +126,7 @@
                          <h5>RASBERRY PEAR CAKE </h5>   
                         </div>
                         <div>
-                        <p>&dollar;18</p>
+                        <p class="price">&dollar;18</p>
                         </div>
                     </div>
                     <p>Eget vulpate vitae quis rutrum blandit sed. Quam nulla sit lacina</p>
@@ -137,7 +137,7 @@
                          <h5>CAFÉ AU LAIT </h5>   
                         </div>
                         <div>
-                        <p>&dollar;18</p>
+                        <p class="price">&dollar;18</p>
                         </div>
                     </div>
                     <p>Eget vulpate vitae quis rutrum blandit sed. Quam nulla sit lacina</p>
@@ -151,6 +151,7 @@
 .money {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 h4 {
@@ -196,5 +197,9 @@ h5 {
     position: relative;
     top: -40px;
     grid-row-end: span 4;
+}
+
+.price {
+    font-family: 'Roboto', sans-serif;
 }
 </style>
