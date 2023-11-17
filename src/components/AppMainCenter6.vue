@@ -190,7 +190,6 @@ h5 {
     background-size: cover;
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%), url(/images/misc22x.jpg);
     background-position: center;
-    background-size: cover;
 }
 
 .grid-element> :nth-child(2) {

@@ -152,14 +152,11 @@ img {
 .bg-1 {
     background-size: cover;
     background-image: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%), url(/images/info52x.jpg);
-    background-position: center;
-    background-size: cover;
 }
 
 .bg-2 {
     background-size: cover;
     background-image: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%), url(/images/info12x.jpg);background-position: center;
-    
 }
 
 .hoover-card:hover {
@@ -167,8 +164,5 @@ img {
     transition: 0.5s;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
 }
-
-
-
 
 </style>
