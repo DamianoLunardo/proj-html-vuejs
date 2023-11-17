@@ -1,7 +1,7 @@
 <template>
     <div class="image-container">
         <img src="../../public/images/hero42x.jpg">
-        <div class="text-info">
+        <div class="text-info container-3">
             <div class="right-part">
                 <div class="price">
                     <h1>BRAISED <br> ABALONE</h1>
