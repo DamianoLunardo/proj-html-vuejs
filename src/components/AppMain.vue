@@ -6,6 +6,7 @@ import AppMainCenter3 from './AppMainCenter3.vue';
 import AppMainCenter4 from './AppMainCenter4.vue';
 import AppMainCenter5 from './AppMainCenter5.vue';
 import AppMainCenter6 from './AppMainCenter6.vue';
+import AppMainCenter7 from './AppMainCenter7.vue';
 
 export default {
   components: {
@@ -16,6 +17,7 @@ export default {
     AppMainCenter4,
     AppMainCenter5,
     AppMainCenter6,
+    AppMainCenter7,
     
   },
   data () {
@@ -35,6 +37,7 @@ export default {
 <AppMainCenter4/>
 <AppMainCenter5/>
 <AppMainCenter6/>
+<AppMainCenter7/>
 </template>
 
 <style lang="scss" scoped>
