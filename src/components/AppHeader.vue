@@ -10,7 +10,7 @@ export default {
                 'Takeout',
                 'Bulletin',
                 'Reservations',
-                'IMG',
+                'Shopping',
             ]
         };
     }
@@ -21,12 +21,12 @@ export default {
     <header>
         <div class="bg-header">
             <div class=" container">
-                <div class="row  header  ">
-                    <div class="col-4 ">
+                <div class="row  header">
+                    <div>
                         <div>
                             <img src="/public/images/logo-restaurant-2x-200x38.png" />
                         </div>
-                        <div class="prova">
+                        <div class="box">
                             <div class="line"></div>
                             <div class="text-info ">
                                 <p class="text-sub">THE BEST TABLE IN TOWN</p>
@@ -40,9 +40,9 @@ export default {
                         </div>
                     </div>
 
-                    <div class="col-8 font-menu">
+                    <div class="font-menu">
                         <ul class="menu">
-                            <li v-for="item in menuItems" :key="item"> {{ item }}</li>
+                            <li class="li" v-for="item in menuItems" :key="item"> {{ item }}</li>
                         </ul>
                     </div>
                 </div>
@@ -52,9 +52,9 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-.prova {
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+.box {
     display: flex;
-
 }
 
 .line {
@@ -83,6 +83,12 @@ export default {
 .menu {
     display: flex;
     gap: 20px;
+    cursor: pointer;
+}
+
+.li:hover {
+  color: white;
+  transform: scale(1.1);
 }
 
 .text-info {

@@ -6,10 +6,10 @@
         </div>
     </div>
 
-    <div class="container-2">
+    <div class="container-2 ">
         <div class="flex-item">
             <div class="image-container"></div>
-            <div class="text-info">
+            <div class="text-info hoover-card">
                 <div class="right-part">
                     <p class="text-sub">MEGGY STEWART</p>
                     <h1>NEW YORK TIMES</h1>
@@ -35,7 +35,7 @@
     <div class="container-2">
         <div class="flex-item-2">
 
-            <div class="text-info bg-1">
+            <div class="text-info bg-1 hoover-card">
                 <div class="right-part">
                     <p class="text-sub">MARY GUARDIAN</p>
                     <h1>NEW YORK TIMES</h1>
@@ -55,7 +55,7 @@
                     <button class="button-black">READ FULL ARTICLE</button>
                 </div>
             </div>
-            <div class="text-info bg-2">
+            <div class="text-info bg-2 hoover-card">
                 <div class="right-part">
                     <p class="text-sub">PATRICK MONROE</p>
                     <h1>GLOBE AND MAIL</h1>
@@ -161,6 +161,14 @@ img {
     background-image: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%), url(/images/info12x.jpg);background-position: center;
     background-size: cover;
 }
+
+.hoover-card:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+
 
 
 </style>
