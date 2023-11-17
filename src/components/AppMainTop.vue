@@ -1,3 +1,33 @@
+<script>
+export default {
+    data() {
+        return {
+            overlayText: "CALIFORNIA ROLLS - $22",
+            bottomItems: [
+                {
+                    image: "../../public/images/sushi-1.png",
+                    title: "THE BEST TABLE IN TOWN",
+                    description: "Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelerisque nisi in urna nulla. Sit tempor a et nisl, ac felis.",
+                    buttonText: "EXPLORE THE MENU",
+                },
+                {
+                    image: "../../public/images/sushi-2.png",
+                    title: "MAKE A RESERVATION",
+                    description: "Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelerisque nisi in urna nulla. Sit tempor a et nisl, ac felis.",
+                    buttonText: "MAKE A RESERVATION",
+                },
+                {
+                    image: "../../public/images/sushi-3.png",
+                    title: "THE BEST TABLE IN TOWN",
+                    description: "Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus scelerisque nisi in urna nulla. Sit tempor a et nisl, ac felis.",
+                    buttonText: "LEARN MORE ABOUT US",
+                },
+            ],
+        };
+    },
+};
+</script>
+
 <template>
     <div class="container-2">
         <div class="top-part">
@@ -29,61 +59,25 @@
 
 
         <div class="bottom-part">
-            <div>
+            <div v-for="(item, index) in bottomItems" :key="index">
                 <ul>
                     <li>
-                        <img src="../../public/images/sushi-1.png" />
+                        <img :src="item.image" />
                     </li>
                     <li>
-                        <h4>THE BEST TABLE IN TOWN</h4>
+                        <h4>{{ item.title }}</h4>
                     </li>
                     <li>
-                        <p>
-                            Pellentesque vitae viverra risus, sagittis.<br />
-                            Venenatis ridiculus scelerisque nisi in urna<br />
-                            nulla. Sit tempor a et nisl, ac felis.
-                        </p>
-                    </li>
-                    <li><button class="button-hover">EXPLORE THE MENU</button></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li>
-                        <img class="img-section-2" src="../../public/images/sushi-2.png" />
+                        <p>{{ item.description }}</p>
                     </li>
                     <li>
-                        <h4>MAKE A RESERVATION</h4>
+                        <button class="button-hover">{{ item.buttonText }}</button>
                     </li>
-                    <li>
-                        <p>
-                            Pellentesque vitae viverra risus, sagittis.<br />
-                            Venenatis ridiculus scelerisque nisi in urna<br />
-                            nulla. Sit tempor a et nisl, ac felis.
-                        </p>
-                    </li>
-                    <li><button class="button-hover">MAKE A RESERVATION</button></li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li>
-                        <img src="../../public/images/sushi-3.png" />
-                    </li>
-                    <li>
-                        <h4>THE BEST TABLE IN TOWN</h4>
-                    </li>
-                    <li>
-                        <p>
-                            Pellentesque vitae viverra risus, sagittis.<br />
-                            Venenatis ridiculus scelerisque nisi in urna<br />
-                            nulla. Sit tempor a et nisl, ac felis.
-                        </p>
-                    </li>
-                    <li><button class="button-hover">LEARN MORE ABOUT US</button></li>
                 </ul>
             </div>
         </div>
+
+
     </div>
 </template>
   
